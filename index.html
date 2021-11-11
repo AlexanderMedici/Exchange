@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Exchange Rate Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <img src="img/money.png" alt="" class="money-img" />
+<body>
+  <div class = "glass">
+    <img src="img/Exchange.PNG" alt="" class="money-img" />
     <h1>Exchange Rate Calculator</h1>
-    <p>Choose the currency and the amounts to get the exchange rate</p>
-
+   
     <div class="container">
       <div class="currency">
         <select id="currency-one">
@@ -70,14 +69,14 @@
         </select>
         <input type="number" id="amount-one" placeholder="0" value="1" />
       </div>
-
       <div class="swap-rate-container">
-        <button class="btn" id="swap">
+       <div class = "wrap">
+        <button class="button" id="swap">
           Swap
-        </button>
-        <div class="rate" id="rate"></div>
+        </button> 
+        </div>
+        <div class="rate" id="rate" type="button"></div>
       </div>
-
       <div class="currency">
         <select id="currency-two">
           <option value="AED">AED</option>
@@ -135,8 +134,40 @@
         </select>
         <input type="number" id="amount-two" placeholder="0" />
       </div>
-    </div>
+    </div >
+  </div>
+  <h3>How To  Use Exchange Rate Calculator</h3>
+  <h5>Use our 5 simple steps become a pro at using our Calculator </h5>
+  <div class="slider">
+  
+  <a href="#slide-1">1</a>
+  <a href="#slide-2">2</a>
+  <a href="#slide-3">3</a>
+  <a href="#slide-4">4</a>
+  <a href="#slide-5">5</a>
 
+  <div class="slides">
+    <div id="slide-1">
+      Use the top selector to chose the currency you currently have.
+    </div>
+    <div id="slide-2">
+      Use the bottom selector to chose the currency you want to exchange it to.
+    </div>
+    <div id="slide-3">
+      Use the swap button to exchange top and bottom currency.
+    </div>
+    <div id="slide-4">
+      The result will be displayed.
+    </div>
+    <div id="slide-5">
+      <a href="https://www.worlddata.info/countrycodes.php"target="_blank"> Click here if you don't know the country codes</a>
+    </div>
+  </div>
+
+ 
     <script src="script.js"></script>
+    </div>
   </body>
+  
 </html>
+

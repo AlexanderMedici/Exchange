@@ -37,3 +37,6 @@ swap.addEventListener('click', () => {
 });
 
 caclulate();
+
+
+
