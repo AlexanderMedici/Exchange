@@ -24,7 +24,7 @@ font-family: 'K2D', sans-serif;
 
 }
 
-h1 {
+h1,h3 {
   color:#d4a00f;
   display:flex;
   justify-content: center;
